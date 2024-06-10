@@ -100,6 +100,7 @@ body
          line-height: 50px;
          float: right;
          margin-top: 10px;
+        
         }
 
         #wrapper-div
@@ -131,11 +132,15 @@ body
           max-height: 100px;
           width: auto;
           padding-right: 100%;
+          padding-top: 25px;
         }
 
         #footer-div img{
-          max-width: 15%;
-      max-height: 15%;
+          max-width: 10%;
+      max-height: 10%;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      
       
         }
 
@@ -147,5 +152,3 @@ body
           text-align: left;
           float: right;
         }
-
-     
