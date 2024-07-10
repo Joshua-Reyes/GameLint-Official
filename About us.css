@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    background-image: url(https://media.istockphoto.com/id/1337108175/vector/dark-gray-3d-hexagonal-technology-vector-abstract-background.jpg?s=612x612&w=0&k=20&c=RYHI2M_KPCMORuSJKZ_klHmWURsZpgrnmfyDnvBNM1Y=);
+          background-repeat: no-repeat;
+          background-size: cover;
+  }
+  
+  .profile-container {
+    width: 80%;
+    min-height: 700px;
+    background-color: #ebebeb;
+    background-image: url(https://t4.ftcdn.net/jpg/03/20/85/41/360_F_320854192_D3oAI22yNude4hgcYYPjLzufeFl3RZDU.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Add this line */
+    float: none; /* Remove float: center, as it's not a valid value */
+    text-align: center;
+    line-height: 150%;
+    padding-top: 1%;
+    margin: 0 auto; /* Add this line to horizontally center the container */
+}
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li:before {
+    content: "\2022";
+    color: #666;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
