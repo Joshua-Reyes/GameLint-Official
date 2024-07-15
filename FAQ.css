@@ -36,4 +36,5 @@ body {
   li:not(:last-child) {
     border-bottom: 1px solid #ccc;
     padding-bottom: 20px;
+    border-radius: 12px;
   }
